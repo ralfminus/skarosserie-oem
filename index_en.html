@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SKAROSSERIE · High-End Sheet Metal Engineering · Prototypes to Niche Series</title>
+  <meta name="description" content="Industrial prototype engineering, stretch forming, GOM 3D metrology, 5-axis CNC tooling, and KUKA robotic laser welding for OEMs, hypercars, and low-volume production.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div id="deck" class="deck-container">
+    <!-- Progress Indicator (Auto-Loop) -->
+    <div class="progress-bar-container">
+      <div id="loopProgress" class="progress-bar"></div>
+    </div>
+
+    <!-- Header Brand Bar -->
+    <header class="brand-header">
+      <div class="brand-logo">
+        <span class="logo-mark">◆</span>
+        <span class="logo-text">SKAROSSERIE</span>
+        <span class="logo-sub">PROTOTYPE ENGINEERING & SHEET METAL MANUFACTORY</span>
+      </div>
+      <div class="header-status">
+        <span id="modeBadge" class="mode-badge manual">Presentation Mode</span>
+        <span class="slide-indicator" id="slideIndicator">01 / 11</span>
+      </div>
+    </header>
+
+    <!-- SLIDES WRAPPER -->
+    <main class="slides-wrapper">
+
+      <!-- SLIDE 1: Hero & Entree -->
+      <section class="slide active" data-slide="1" data-title="Entrée & Vision" data-duration="12">
+        <div class="slide-bg" style="background-image: url('./streckziehen__04_grossbauteil_dachhaut_streckziehpresse.jpeg');"></div>
+        <div class="slide-overlay gradient-dark"></div>
+        <div class="slide-content content-hero">
+          <div class="hero-badge">CONCEPT & PROTOTYPE VEHICLES · SPECIAL EDITIONS & LOW-VOLUME PRODUCTION (1 TO 500 UNITS)</div>
+          <h1 class="hero-title">All BIW & Sheet Metal Parts.<br><em>Fast. 1 to 500 Units. Proven OEM Quality.</em></h1>
+          <p class="hero-lead">We manufacture <strong>the complete sheet metal spectrum</strong> for concept cars and prototype vehicles in days or weeks instead of months, covering batch sizes from <strong>1 to 500 units</strong>: From brackets, consoles, and structural members to expansive stretch-formed exterior skins. Specialized in aluminum (5xxx & 6xxx incl. heat treatment & e-coating/KTL), deep-drawing steels, and stainless steel.</p>
+          <div class="hero-usp-grid">
+            <div class="hero-usp-item">
+              <span class="hero-usp-num">01 · FULL SPECTRUM</span>
+              <div class="hero-usp-title">From Bracket to Skin Panel</div>
+              <div class="hero-usp-desc">Brackets, gussets, structural sheet metal, and large-scale Class-A freeform panels from a single source</div>
+            </div>
+            <div class="hero-usp-item">
+              <span class="hero-usp-num">02 · SPEED & AGILITY</span>
+              <div class="hero-usp-title">Rapid Turnaround</div>
+              <div class="hero-usp-desc">Tooling & fabrication delivered in days or weeks instead of months for agile development cycles</div>
+            </div>
+            <div class="hero-usp-item">
+              <span class="hero-usp-num">03 · BATCH SIZES</span>
+              <div class="hero-usp-title">1 to 500 Components</div>
+              <div class="hero-usp-desc">Cost-efficient from unit 1 to niche production runs without multi-million tooling capex</div>
+            </div>
+            <div class="hero-usp-item">
+              <span class="hero-usp-num">04 · MATERIALS & METALLURGY</span>
+              <div class="hero-usp-title">Validated Quality</div>
+              <div class="hero-usp-desc">5xxx/6xxx aluminum, deep-drawing steel, stainless—dimensionally accurate, stress-free & repeatable</div>
+            </div>
+          </div>
+          <div class="hero-footer-tags">
+            <span class="tag">From Bracket to Skin Panel</span>
+            <span class="tag">Stretch-Forming Press</span>
+            <span class="tag">Alu 5xxx & 6xxx (Heat-Treated / E-Coat)</span>
+            <span class="tag">Deep-Drawing & Stainless Steel</span>
+            <span class="tag">1 to 500 Parts</span>
+            <span class="tag">GOM ATOS 3D Inspection</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- SLIDE 2: The OEM Dilemma & Solution -->
+      <section class="slide" data-slide="2" data-title="Market & Dilemma" data-duration="14">
+        <div class="slide-content content-grid-2">
+          <div class="text-column">
+            <div class="section-tag">VALUE PROPOSITION FOR OEM ENGINEERS</div>
+            <h2 class="slide-title">Complete Sheet Metal Parts on Fast Lead Times.<br><em>Bridging the Gap between Production Tooling & Manual Craft.</em></h2>
+            <p class="slide-text">
+              For concept cars, prototypes, and exclusive low-volume series (1 to 500 units), full-scale steel production dies are cost-prohibitive and stall agile development sprints. Conversely, manual coachbuilding quickly hits limits in OEM tolerances, dent resistance, and batch repeatability.
+            </p>
+            <div class="quote-card">
+              <span class="quote-icon">“</span>
+              <p>Our answer: Rapid 5-axis tooling and dedicated forming technologies for the entire sheet metal spectrum—from the smallest mounting bracket to complex structural assemblies in batch sizes from 1 to 500 units.</p>
+            </div>
+            <div class="meta-bullets">
+              <div class="bullet-item">
+                <span class="bullet-num">01</span>
+                <span><strong>From Bracket to Body Panel:</strong> Comprehensive manufacturing capability for BIW structural, body, and chassis components from one source.</span>
+              </div>
+              <div class="bullet-item">
+                <span class="bullet-num">02</span>
+                <span><strong>Rapid Turnaround (Days to Weeks):</strong> Rigid Ureol and composite tooling milled directly from CAD—bypassing month-long foundry wait times.</span>
+              </div>
+              <div class="bullet-item">
+                <span class="bullet-num">03</span>
+                <span><strong>Cost-Effective from Batch Size 1:</strong> 1 to 500 parts with series-production tolerances and verified quality without capex-heavy tooling investments.</span>
+              </div>
+            </div>
+          </div>
+          <div class="visual-column">
+            <div class="image-frame glow-gold">
+              <img src="./sonderbau__01_cnc_biegebacken_fertigung_frontgrill.jpeg" alt="Massive CNC forming tooling and bending jaws for bespoke front grille">
+              <span class="frame-tag gold">CNC FORMING & BENDING TOOLING · BESPOKE FRONT GRILLE</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SLIDE 3: The Core USP · Stretch-Forming Press -->
+      <section class="slide" data-slide="3" data-title="Stretch-Forming Press" data-duration="15">
+        <div class="slide-content content-split-visual">
+          <div class="text-column">
+            <div class="section-tag">THE UNIQUE USP · FOCUS ON EXTERIOR SKINS</div>
+            <h2 class="slide-title">Focus on Exterior Skins: Stretch-Formed Large Panels.<br><em>The Benchmark: Roofs, Bonnets, Quarter Panels, Closures.</em></h2>
+            <p class="slide-text">
+              While brackets, consoles, and structural stampings are flexibly produced via CNC forming tools and guided fixtures, exterior body skins are the critical bottleneck in prototype builds: Large, compound-curved visible surfaces demand uninterrupted reflection lines free of imperfections. Conventional matched stamping dies are cost-prohibitive for 1 to 500 units. Our hydraulic stretch-forming press solves this bottleneck using a single male punch.
+            </p>
+            <div class="meta-bullets">
+              <div class="bullet-item">
+                <span class="bullet-num">01</span>
+                <span><strong>Large-Scale Skin Focus:</strong> Tailored for full vehicle roofs, bonnets, tailgates, door skins, and fenders with series-production appearance.</span>
+              </div>
+              <div class="bullet-item">
+                <span class="bullet-num">02</span>
+                <span><strong>Single Male Punch Tooling:</strong> Expansive outer panels produced without costly upper/lower matched dies—delivering unmatched economy for 1 to 500 units.</span>
+              </div>
+              <div class="bullet-item">
+                <span class="bullet-num">03</span>
+                <span><strong>Biaxial Tensile Stress:</strong> Uniform grain elongation across the panel ensures homogeneous contours and flawless Class-A surfaces without sink marks.</span>
+              </div>
+            </div>
+          </div>
+          <div class="visual-column">
+            <div class="image-frame glow-gold">
+              <img src="./streckziehen__04_grossbauteil_dachhaut_streckziehpresse.jpeg" alt="Large roof skin component on stretch-forming press during forming process">
+              <div class="frame-tag gold">LARGE PANEL · ROOF SKIN ON STRETCH-FORMING PRESS</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SLIDE 4: Physics of Perfection · Strain Hardening & Metallurgy -->
+      <section class="slide" data-slide="4" data-title="Strain Hardening & Metallurgy" data-duration="16">
+        <div class="slide-content content-split-visual">
+          <div class="text-column">
+            <div class="section-tag">THE PHYSICS OF PERFECTION · MATERIAL SCIENCE</div>
+            <h2 class="slide-title">Dent-Resistant. Dimensionally Stable.<br><em>Targeted Strain Hardening & OEM Material Expertise.</em></h2>
+            <p class="slide-text">
+              In conventional deep drawing, sheet metal hardens predominantly along heavily drawn radii—leaving broad freeform panels soft and vulnerable to dreaded "oil-canning" or denting during assembly and testing. Through stretch forming, the entire metallic microstructure undergoes uniform, controlled strain hardening across 100% of the surface.
+            </p>
+            <div class="benefit-box">
+              <div class="benefit-title">The Quality Edge for Prototypes, Show Cars & Low-Volume Series</div>
+              <p>Outstanding resistance against denting and handling deformation during assembly, proving-ground testing, or transport. Thermal oil-canning under sun exposure is completely eliminated—yielding razor-sharp reflections without body filler.</p>
+            </div>
+            <div class="kpi-row">
+              <div class="kpi-item">
+                <span class="kpi-number">100 %</span>
+                <span class="kpi-label">Surface Hardened</span>
+              </div>
+              <div class="kpi-item">
+                <span class="kpi-number">+ 35 %</span>
+                <span class="kpi-label">Higher Dent Resistance</span>
+              </div>
+              <div class="kpi-item">
+                <span class="kpi-number">1–500 Units</span>
+                <span class="kpi-label">Economic Sweet Spot</span>
+              </div>
+            </div>
+            <div class="meta-bullets" style="margin-top: 14px;">
+              <div class="bullet-item">
+                <span class="bullet-num">01</span>
+                <span><strong>Aluminum Skin Alloys:</strong> EN AW-5xxx & 6xxx series incl. solution heat treatment / artificial aging for targeted yield strength and full E-coat (KTL) compatibility.</span>
+              </div>
+              <div class="bullet-item">
+                <span class="bullet-num">02</span>
+                <span><strong>Deep-Drawing & Stainless Steels:</strong> Dependable forming of advanced deep-drawing steels and stainless grades for demanding structural and styling criteria.</span>
+              </div>
+            </div>
+          </div>
+          <div class="visual-column">
+            <div class="trio-visual-stack">
+              <div class="trio-top-row">
+                <div class="image-frame-stacked glow-border">
+                  <img src="./streckziehen__01_tuerhaut_auf_streckziehpresse.jpeg" alt="Door skin on stretch-forming press under tensile stress">
+                  <span class="frame-tag">BIAXIAL TENSILE STRETCHING</span>
+                </div>
+                <div class="image-frame-stacked glow-border">
+                  <img src="./streckziehen__02_streckziehpresse_spannbacken_tuerhaut.jpeg" alt="Hydraulic gripper jaws holding door skin">
+                  <span class="frame-tag">HYDRAULIC GRIPPER JAWS</span>
+                </div>
+              </div>
+              <div class="trio-bottom-row">
+                <img src="./streckziehen__03_tuerhaut_finish_class_a_flaeche.jpeg" alt="Finished door skin with flawless Class-A surface">
+                <span class="frame-tag gold">FLAWLESS CLASS-A SURFACE FINISH</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SLIDE 5: Case Study · G-Class Reverse Coach Doors -->
+      <section class="slide" data-slide="5" data-title="Case Study G-Class Doors" data-duration="16">
+        <div class="slide-content content-split-visual">
+          <div class="text-column">
+            <div class="section-tag">BENCHMARK PROJECT · LOW-VOLUME SHEET METAL SERIES</div>
+            <h2 class="slide-title">Rear-Hinged Coach Doors in Niche Volume.<br><em>Re-Engineered Door Ingress & Rear Doors for Luxury OEMs.</em></h2>
+            <p class="slide-text">
+              As an exacting benchmark for complex BIW assemblies, we fabricated the entire re-engineered door aperture structure and rear coach doors as ready-to-install sheet metal assemblies for an exclusive luxury brand. Here, the complete process chain connects seamlessly: From stretch-formed outer skins to geometrically verified structural sub-assemblies.
+            </p>
+            <div class="meta-bullets">
+              <div class="bullet-item">
+                <span class="bullet-num">01</span>
+                <span><strong>Re-Engineered Ingress Aperture:</strong> Dimensionally verified door-sill and B/C-pillar structural panels engineered to integrate reverse-hinge kinematics without play.</span>
+              </div>
+              <div class="bullet-item">
+                <span class="bullet-num">02</span>
+                <span><strong>Rear Coach Doors (Sheet Metal Assemblies):</strong> Stretch-formed outer skin with uniform strain hardening, joined with micron precision to the re-engineered inner door framing.</span>
+              </div>
+              <div class="bullet-item">
+                <span class="bullet-num">03</span>
+                <span><strong>Niche-Series Perfection:</strong> Repeatable fitment, razor-sharp flush shut lines, and distortion-free skin alignment starting from batch size 1.</span>
+              </div>
+            </div>
+            <div class="live-doors-callout" style="margin-top: 16px;">
+              <p><strong>Available for inspection at our manufactory:</strong> The tooling bucks for the door assemblies and structural pillar conversions are available for technical review on-site in Bretzfeld.</p>
+            </div>
+          </div>
+          <div class="visual-column">
+            <div class="video-container glow-gold video-click-to-play" id="slideCoachDoorsWrap" title="Click to play real-world video">
+              <div class="video-poster">
+                <img src="./g_klasse_hofele_suicide_doors.png" alt="G-Class with reverse coach doors - detailed view">
+                <div class="poster-play-overlay">
+                  <div class="pulse-play-btn">
+                    <span class="triangle-play">▶</span>
+                  </div>
+                  <span class="poster-callout-text">Click to play real-world video</span>
+                </div>
+                <span class="frame-tag gold">LOW-VOLUME PRODUCTION · REVERSE COACH DOORS</span>
+              </div>
+              <div class="video-embed-holder">
+                <iframe data-src="https://www.youtube.com/embed/y4Fs3-2sPgw?autoplay=1&rel=0&enablejsapi=1" src="" title="G-Class doors manufacturing and application" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width: 100%; height: 100%; border-radius: 8px;"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SLIDE 6: Step 2 · Agile Tooling & 5-Axis CNC -->
+      <section class="slide" data-slide="6" data-title="CNC Rapid Tooling" data-duration="15">
+        <div class="slide-content content-split-visual">
+          <div class="text-column">
+            <div class="section-tag">AGILE TOOLING (1 TO 500 UNITS)</div>
+            <h2 class="slide-title">Tooling Turnaround<br><em>in Days or Weeks instead of Months.</em></h2>
+            <p class="slide-text">
+              Bypassing month-long lead times for heavy cast iron or forged steel dies: Directly from OEM CAD data, we engineer and machine rigid Ureol and composite tooling sets on state-of-the-art 5-axis simultaneous CNC centers.
+            </p>
+            <div class="feature-pills">
+              <span class="pill">5-Axis Simultaneous Milling</span>
+              <span class="pill">Rigid Ureol Tooling Bucks</span>
+              <span class="pill">Rapid Design Iterations</span>
+            </div>
+            <div class="mini-gallery-row">
+              <div class="mini-thumb">
+                <img src="./prozesskette__02_cnc_fraesen_ureol_klopfklotz_fertig.jpeg" alt="CNC-milled Ureol forming die">
+                <span>Ureol Forming Die Inner Profile</span>
+              </div>
+              <div class="mini-thumb">
+                <img src="./prozesskette__03_ureol_formwerkzeug_heck_radlauf.jpeg" alt="Ureol forming buck for rear wheel arch">
+                <span>Wheel Arch Forming Tool</span>
+              </div>
+            </div>
+            <div class="meta-bullets" style="margin-top: 18px;">
+              <div class="bullet-item">
+                <span class="bullet-num">01</span>
+                <span><strong>Maximum Agility:</strong> Geometric engineering changes (ECRs) during prototype development are integrated directly and swiftly into tooling adaptations.</span>
+              </div>
+            </div>
+          </div>
+          <div class="visual-column">
+            <div class="video-container glow-border">
+              <video id="cncVideo" loop muted playsinline preload="auto">
+                <source src="./prozesskette__02_cnc_fraesen_ureol_werkzeug_video.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+              </video>
+              <div class="video-overlay-ctrl">
+                <button class="btn-video-toggle" id="btnCncVideo">▶ Play Video</button>
+                <span class="video-badge">LIVE FOOTAGE · 5-AXIS TOOL MILLING</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SLIDE 7: Digital OEM Workflow & Industrial 3D Metrology -->
+      <section class="slide" data-slide="7" data-title="OEM Workflow & Metrology" data-duration="14">
+        <div class="slide-content content-split-visual">
+          <div class="text-column">
+            <div class="section-tag">DIGITAL PROCESS CHAIN & QUALITY ASSURANCE</div>
+            <h2 class="slide-title">From OEM CAD to Certified Component.<br><em>Seamless Workflow to Automotive Standards.</em></h2>
+            <p class="slide-text">
+              Engineering, tooling kinematics, and forming simulations are executed directly from your native OEM CAD files (CATIA, Siemens NX, STEP). In our climate-controlled metrology lab, we verify every part against current revision CAD data using optical 3D blue-light scanning (GOM ATOS Triple Scan)—accompanied by standardized VDA inspection reports.
+            </p>
+            <div class="specs-grid">
+              <div class="spec-box">
+                <span class="spec-val">&lt; 0.02 mm</span>
+                <span class="spec-lbl">Accuracy (VDI/VDE 2634)</span>
+              </div>
+              <div class="spec-box">
+                <span class="spec-val">Catia / NX</span>
+                <span class="spec-lbl">Native CAD Pipeline</span>
+              </div>
+              <div class="spec-box">
+                <span class="spec-val">VDA / OEM</span>
+                <span class="spec-lbl">Colormap & Audit Reports</span>
+              </div>
+            </div>
+            <div class="meta-bullets">
+              <div class="bullet-item">
+                <span class="bullet-num">01</span>
+                <span><strong>Process Planning & Simulation:</strong> Direct derivation of tool surface kinematics and draw stages from your released OEM CAD geometry.</span>
+              </div>
+              <div class="bullet-item">
+                <span class="bullet-num">02</span>
+                <span><strong>Optical 3D Nominal-Actual Comparison:</strong> Stationary CMM/lab scanning or mobile on-vehicle digitizing for expedited prototype sign-off.</span>
+              </div>
+            </div>
+            <p class="slide-footnote">Top image: GOM ATOS Triple Scan sensor in metrology lab. Bottom: Mobile photogrammetry on complete vehicle body.</p>
+          </div>
+          <div class="visual-column stacked-visuals">
+            <div class="image-frame-stacked glow-gold">
+              <img src="./messtechnik__01_gom_atos_optischer_3d_scanner_messlabor.jpeg" alt="GOM ATOS Triple Scan optical 3D scanner in metrology lab">
+              <div class="frame-tag gold">METROLOGY LAB · GOM ATOS TRIPLE SCAN SENSOR</div>
+            </div>
+            <div class="image-frame-stacked glow-border">
+              <img src="./prozesskette__01_3d_scan_g_klasse_tuer_fotogrammetrie.jpeg" alt="Optical 3D scan of body-in-white structure">
+              <div class="frame-tag">MOBILE PHOTOGRAMMETRY · BIW DIGITIZATION</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SLIDE 8: Feasibility & Geometry Digitization (Design & Modeling) -->
+      <section class="slide" data-slide="8" data-title="Styling & Reverse Engineering" data-duration="15">
+        <div class="slide-content content-full">
+          <div class="section-header-centered">
+            <div class="section-tag">FEASIBILITY & REVERSE ENGINEERING · IN ABSENCE OF CAD DATA</div>
+            <h2 class="slide-title">From Clay Styling Model or Physical Buck<br><em>to Digital Twin and Finished Component.</em></h2>
+            <p class="slide-lead">When complete CAD surfaces do not yet exist in early concept phases: Seamless reverse engineering of geometric CAD datasets directly from 1:1 clay styling models, package bucks, or test hardware.</p>
+          </div>
+          <div class="grid-3-cards">
+            <div class="craft-card">
+              <div class="craft-img">
+                <span class="craft-badge">PHASE 01 · ACQUISITION</span>
+                <img src="./engineering__01_schadteil_messmarken_referenzpunkte.jpeg" alt="Styling model with optical reference targets">
+              </div>
+              <div class="craft-body">
+                <h3>Photogrammetric Targeting</h3>
+                <p>High-contrast optical markers on design clay, package bucks, or physical parts ensure ultra-precise 360° point cloud acquisition across complex character lines.</p>
+              </div>
+            </div>
+            <div class="craft-card">
+              <div class="craft-img">
+                <span class="craft-badge">PHASE 02 · ALIGNMENT</span>
+                <img src="./engineering__02_musterbauteil_gefuegt_fuer_scan.jpeg" alt="Aligned master component fixture for optical scanning">
+              </div>
+              <div class="craft-body">
+                <h3>Precision Fixturing</h3>
+                <p>Rigid zero-play fixturing and datum alignment of physical models to reliably capture critical mounting interfaces and dimensions.</p>
+              </div>
+            </div>
+            <div class="craft-card">
+              <div class="craft-img">
+                <span class="craft-badge">PHASE 03 · DIGITAL TWIN</span>
+                <img src="./engineering__03_cad_rekonstruktion_zeiss_gom_software.jpeg" alt="Surface reconstruction in ZEISS GOM software">
+              </div>
+              <div class="craft-body">
+                <h3>ZEISS GOM Digital Twin</h3>
+                <p>Conversion of scan point clouds into clean, parametric Class-A CAD models—serving as the direct baseline for rapid tooling and part production.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SLIDE 9: Structural Part Process Chain (From CNC Die to Finished Part) -->
+      <section class="slide" data-slide="9" data-title="Structural Part Process Chain" data-duration="16">
+        <div class="slide-content content-full">
+          <div class="section-header-centered">
+            <div class="section-tag">PROTOTYPE & STRUCTURAL PANEL MANUFACTURING</div>
+            <h2 class="slide-title">From CNC Forming Die<br><em>to Dimensionally Certified Structural Member.</em></h2>
+            <p class="slide-lead">End-to-end creation of demanding rocker sills and structural members: Ureol forming die, guided forming, and laser-trimmed contour.</p>
+          </div>
+          <div class="grid-3-cards">
+            <div class="craft-card">
+              <div class="craft-img">
+                <span class="craft-badge">STAGE 01 · TOOLING</span>
+                <img src="./prozesskette__02_cnc_fraesen_ureol_klopfklotz_fertig.jpeg" alt="5-axis CNC-machined Ureol forming die for sill member">
+              </div>
+              <div class="craft-body">
+                <h3>5-Axis CNC Forming Die</h3>
+                <p>Precision-machined Ureol tooling buck with 100% CAD surface fidelity, integrated bead geometry, and CNC-located datum holes.</p>
+              </div>
+            </div>
+            <div class="craft-card">
+              <div class="craft-img">
+                <span class="craft-badge">STAGE 02 · GUIDED FORMING</span>
+                <img src="./handformung__05_schwellertraeger_anpassen_schraubzwingen.jpeg" alt="Guided hand forming and clamping sill member over die">
+              </div>
+              <div class="craft-body">
+                <h3>Guided Hand Forming</h3>
+                <p>Controlled flanging, edge-dressing, and radius setting under high-pressure clamping directly over the forming die.</p>
+              </div>
+            </div>
+            <div class="craft-card">
+              <div class="craft-img">
+                <span class="craft-badge">STAGE 03 · FINISHED PART</span>
+                <img src="./handformung__06_schwellertraeger_blechteil_konturiert_fertig.jpeg" alt="Laser-trimmed, contoured sill member seated flush on buck">
+              </div>
+              <div class="craft-body">
+                <h3>Contoured Structural Member</h3>
+                <p>Laser-trimmed, geometrically verified structural stamping seating flush on inspection and forming tooling.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SLIDE 10: Complex BIW Components in Low-Volume Series -->
+      <section class="slide" data-slide="10" data-title="Low-Volume BIW Components" data-duration="15">
+        <div class="slide-content content-full">
+          <div class="section-header-centered">
+            <div class="section-tag">EXTERIOR SKIN & SEGMENT MANUFACTURING</div>
+            <h2 class="slide-title">Complex BIW Components<br><em>in Low-Volume Production.</em></h2>
+            <p class="slide-lead">Forming dies, hemmed flanges, and sub-millimeter verification on master assembly fixtures.</p>
+          </div>
+          <div class="grid-3-cards">
+            <div class="craft-card">
+              <div class="craft-img">
+                <span class="craft-badge">FIXTURE TABLE TOOLING</span>
+                <img src="./prototypenbau__01_werkzeug_handformung_radlauf_aufspanntisch.jpeg" alt="Ureol wheel-arch buck on modular fixture table">
+              </div>
+              <div class="craft-body">
+                <h3>Wheel Arch Ureol Tooling Buck</h3>
+                <p>Clamped on the modular 3D fixturing table, flanked by dedicated bossing mallets, forming dollies, and toggle clamps for precise wheel-arch hem flanging.</p>
+              </div>
+            </div>
+            <div class="craft-card">
+              <div class="craft-img">
+                <span class="craft-badge">FORMING & HOLDING FIXTURE</span>
+                <img src="./prototypenbau__02_ureol_spannwerkzeug_blechformung_totale.jpeg" alt="Forming dies clamping pre-formed sheet metal for secondary operations">
+              </div>
+              <div class="craft-body">
+                <h3>Secondary Operations Fixturing</h3>
+                <p>Forming dies locate and clamp the pre-formed panel for precision manual trimming, piercing, and restriking operations.</p>
+              </div>
+            </div>
+            <div class="craft-card">
+              <div class="craft-img">
+                <span class="craft-badge">CHECKING FIXTURE</span>
+                <img src="./prototypenbau__03_seitenwand_kleinserie_pruefvorrichtung.jpeg" alt="Fully formed fender / wing on checking fixture">
+              </div>
+              <div class="craft-body">
+                <h3>Fully Formed Fender / Wing</h3>
+                <p>Fully formed fender on master inspection fixture—ready for direct integration into Body-in-White (BIW) assembly.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SLIDE 11: Contact & Personal Dialogue -->
+      <section class="slide" data-slide="11" data-title="Contact & Manufactory" data-duration="15">
+        <div class="slide-content content-split-visual">
+          <div class="text-column">
+            <div class="section-tag">DIRECT ENGINEERING DIALOGUE & CONTACT</div>
+            <h2 class="slide-title">Your Trusted Partner for Prototypes<br><em>and Special Series.</em></h2>
+            <p class="slide-text">
+              Let us discuss feasibility studies, package constraints, and low-volume production strategies. We advise engineer-to-engineer and master coachbuilder—on-site at our facility or via digital technical sessions.
+            </p>
+            <div class="contact-info-list">
+              <div class="contact-info-item">
+                <span class="contact-icon">📍</span>
+                <div>
+                  <div class="contact-detail-title">Address</div>
+                  <div class="contact-detail-val">Mainhardter Str. 39, 74626 Bretzfeld, Germany</div>
+                </div>
+              </div>
+              <div class="contact-info-item">
+                <span class="contact-icon">✉️</span>
+                <div>
+                  <div class="contact-detail-title">Email</div>
+                  <div class="contact-detail-val">
+                    <a href="mailto:kontakt@skarosserie.de">kontakt@skarosserie.de</a> · 
+                    <a href="mailto:schaeferkarosserie@gmail.com">schaeferkarosserie@gmail.com</a>
+                  </div>
+                </div>
+              </div>
+              <div class="contact-info-item">
+                <span class="contact-icon">📞</span>
+                <div>
+                  <div class="contact-detail-title">Phone / Mobile</div>
+                  <div class="contact-detail-val">
+                    <a href="tel:+491728807046">+49 172 8807046</a>
+                  </div>
+                </div>
+              </div>
+              <div class="contact-info-item">
+                <span class="contact-icon">🌐</span>
+                <div>
+                  <div class="contact-detail-title">Web & Showroom</div>
+                  <div class="contact-detail-val">
+                    <a href="https://www.skarosserie.de" target="_blank" rel="noopener">www.skarosserie.de</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="live-doors-callout">
+              <p><strong>Visit Our Manufactory:</strong> Inspect our industrial stretch-forming press, Ureol tooling dies, and physical production parts firsthand in Bretzfeld.</p>
+            </div>
+          </div>
+          <div class="visual-column">
+            <div class="image-frame glow-gold">
+              <img src="./kontakt__01_marco_schaefer_manufaktur_dialog.jpeg" alt="Marco Schäfer in technical discussion at sheet metal fixture">
+              <span class="frame-tag gold">MARCO SCHÄFER · FOUNDER & MASTER COACHBUILDER</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- FOOTER CONTROLS -->
+    <footer class="deck-controls">
+      <div class="controls-left">
+        <button id="btnPrev" class="ctrl-btn" title="Previous Slide (Left Arrow)">‹ Prev</button>
+        <button id="btnNext" class="ctrl-btn" title="Next Slide (Right Arrow / Space)">Next ›</button>
+        <button id="btnLoopToggle" class="ctrl-btn loop-toggle" title="Toggle Auto-Loop (Key A)">
+          <span class="loop-icon">↻</span> Auto-Loop: <strong id="loopStatusText">OFF</strong>
+        </button>
+      </div>
+      <div class="controls-center">
+        <span class="quick-nav-label">Slide:</span>
+        <div class="dots-nav" id="dotsNav"></div>
+      </div>
+      <div class="controls-right">
+        <button id="btnFullscreen" class="ctrl-btn" title="Fullscreen (Key F / F11)">⛶ Fullscreen</button>
+      </div>
+    </footer>
+
+    <!-- VIDEO MODAL (YOUTUBE / EXTERNAL) -->
+    <div id="videoModal" class="video-modal">
+      <div class="video-modal-backdrop" id="btnBackdropClose"></div>
+      <div class="video-modal-dialog">
+        <div class="video-modal-header">
+          <span class="modal-title">MANUFACTURING DOCUMENTATION · G-CLASS DOORS</span>
+          <button id="btnCloseModal" class="modal-close-btn">&times; Close (ESC)</button>
+        </div>
+        <div class="video-modal-body">
+          <div class="iframe-responsive-wrap">
+            <iframe id="ytIframe" src="" title="G-Class Door Manufacturing" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./app_en.js"></script>
+</body>
+</html>
+

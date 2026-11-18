@@ -1,0 +1,30 @@
+# Backups & Rohversionen
+*.bak
+*_orig.jpeg
+*.orig.jpeg
+*.tmp
+* - Kopie.*
+*Kopie*
+
+# OS & System-Dateien
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# Lokale Archiv-Bilder (nicht in der OEM-Präsentation verwendet)
+batteriebox__*.jpeg
+blechteil__*.jpeg
+handformung__01_*.jpeg
+handformung__02_*.jpeg
+handformung__03_*.jpeg
+handformung__04_*.jpeg
+handformung__07_*.jpeg
+presse__01_*.jpeg
+prototypenbau__04_*.jpeg
+sonderbau__02_*.jpeg
+streckziehen__*__fokus.jpeg
+streckziehen__*__tiefenschaerfe.jpeg
+streckziehen__*__zuschnitt.jpeg
+streckziehen__05_*.jpeg
+streckziehpresse__*.jpeg

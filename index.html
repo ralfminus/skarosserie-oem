@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SKAROSSERIE · High-End Blechtechnologie · Prototypen bis Kleinstserie</title>
+  <meta name="description" content="Industrieller Prototypenbau, Streckziehen, GOM 3D-Messtechnik, 5-Achs-CNC-Werkzeugbau und KUKA-Laserschweißen für OEMs, Supersportwagen und Kleinserien.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div id="deck" class="deck-container">
+    <!-- Progress Indicator (Auto-Loop) -->
+    <div class="progress-bar-container">
+      <div id="loopProgress" class="progress-bar"></div>
+    </div>
+
+    <!-- Header Brand Bar -->
+    <header class="brand-header">
+      <div class="brand-logo">
+        <span class="logo-mark">◆</span>
+        <span class="logo-text">SKAROSSERIE</span>
+        <span class="logo-sub">PROTOTYPENBAU & BLECHTEILEMANUFAKTUR</span>
+      </div>
+      <div class="header-status">
+        <span id="modeBadge" class="mode-badge manual">Vortrags-Modus</span>
+        <span class="slide-indicator" id="slideIndicator">01 / 11</span>
+      </div>
+    </header>
+
+    <!-- SLIDES WRAPPER -->
+    <main class="slides-wrapper">
+
+      <!-- SLIDE 1: Hero & Entree -->
+      <section class="slide active" data-slide="1" data-title="Entrée & Vision" data-duration="12">
+        <div class="slide-bg" style="background-image: url('./streckziehen__04_grossbauteil_dachhaut_streckziehpresse.jpeg');"></div>
+        <div class="slide-overlay gradient-dark"></div>
+        <div class="slide-content content-hero">
+          <div class="hero-badge">KONZEPT- & PROTOTYPENFAHRZEUGE · SONDERBAU & KLEINSERIE (1 BIS 500 STÜCK)</div>
+          <h1 class="hero-title">Alle Karosserie- & Blechteile.<br><em>Schnell. 1 bis 500 Stück. Überzeugende Qualität.</em></h1>
+          <p class="hero-lead">Wir fertigen für Konzept- und Prototypenfahrzeuge <strong>das gesamte Blechteilespektrum</strong> in Tagen oder Wochen statt Monaten für Losgrößen von <strong>1 bis 500 Stück</strong>: Von Haltern, Konsolen und Strukturteilen bis hin zu großflächigen Außenhautteilen im Streckzug. Spezialisiert auf Aluminium (5xxx & 6xxx inkl. Wärmebehandlung & KTL), Tiefziehstähle und Edelstahl.</p>
+          <div class="hero-usp-grid">
+            <div class="hero-usp-item">
+              <span class="hero-usp-num">01 · VOLLSTÄNDIGES SPEKTRUM</span>
+              <div class="hero-usp-title">Vom Halter bis zur Außenhaut</div>
+              <div class="hero-usp-desc">Halter, Konsolen, Strukturbleche sowie großflächige Freiformen aus einer Hand</div>
+            </div>
+            <div class="hero-usp-item">
+              <span class="hero-usp-num">02 · SPEED & AGILITÄT</span>
+              <div class="hero-usp-title">Schnelle Vorlaufzeit</div>
+              <div class="hero-usp-desc">Werkzeugbau & Fertigung in Tagen oder Wochen statt Monaten für agile Entwicklungszyklen</div>
+            </div>
+            <div class="hero-usp-item">
+              <span class="hero-usp-num">03 · LOSGRÖSSEN</span>
+              <div class="hero-usp-title">1 bis 500 Bauteile</div>
+              <div class="hero-usp-desc">Wirtschaftlich ab Stückzahl 1 bis zur Kleinserie ohne Millionen-Tooling</div>
+            </div>
+            <div class="hero-usp-item">
+              <span class="hero-usp-num">04 · WERKSTOFFE & QUALITÄT</span>
+              <div class="hero-usp-title">Überzeugende Qualität</div>
+              <div class="hero-usp-desc">Alu 5xxx/6xxx, Tiefziehstahl, Edelstahl – maßhaltig, verzugsfrei & reproduzierbar</div>
+            </div>
+          </div>
+          <div class="hero-footer-tags">
+            <span class="tag">Vom Halter bis zur Außenhaut</span>
+            <span class="tag">Streckziehpresse</span>
+            <span class="tag">Alu 5xxx & 6xxx (Wärmebehandelt/KTL)</span>
+            <span class="tag">Tiefziehstahl & Edelstahl</span>
+            <span class="tag">1 bis 500 Bauteile</span>
+            <span class="tag">GOM ATOS 3D-Prüfung</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- SLIDE 2: Das OEM-Dilemma & Die Lösung (Fokus auf Werkzeuge im Vordergrund) -->
+      <section class="slide" data-slide="2" data-title="Markt & Dilemma" data-duration="14">
+        <div class="slide-content content-grid-2">
+          <div class="text-column">
+            <div class="section-tag">LEISTUNGSVERSPRECHEN AN OEM-ENTWICKLER</div>
+            <h2 class="slide-title">Alle Blechteile in schneller Zeit.<br><em>Die Lücke zwischen Serienwerkzeug & Manufaktur.</em></h2>
+            <p class="slide-text">
+              Für Konzept- und Prototypenfahrzeuge sowie exklusive Kleinserien (1 bis 500 Einheiten) sind stahlgefräste Großserienwerkzeuge wirtschaftlich untragbar und blockieren agile Entwicklungszyklen. Reine Handfertigung wiederum stößt bei OEM-Toleranzen, Beulsteifigkeit und Wiederholgenauigkeit schnell an Grenzen.
+            </p>
+            <div class="quote-card">
+              <span class="quote-icon">“</span>
+              <p>Unsere Antwort: Schneller 5-Achs-Werkzeugbau und spezialisierte Umformtechnologien für das gesamte Blechteilespektrum – vom kleinsten Halter bis zum komplexen Karosseriebauteil in Losgrößen von 1 bis 500 Stück.</p>
+            </div>
+            <div class="meta-bullets">
+              <div class="bullet-item">
+                <span class="bullet-num">01</span>
+                <span><strong>Vom Halter bis zum Großbauteil:</strong> Breites Fertigungsspektrum für alle Karosserie-, Struktur- und Anbauteile aus einer Hand.</span>
+              </div>
+              <div class="bullet-item">
+                <span class="bullet-num">02</span>
+                <span><strong>Schnelle Bereitstellung (Tage bis Wochen):</strong> Formstabile Ureol- und Verbundwerkzeuge direkt aus CAD gefräst – kein monatelanges Warten auf Gusswerkzeuge.</span>
+              </div>
+              <div class="bullet-item">
+                <span class="bullet-num">03</span>
+                <span><strong>Wirtschaftlich ab Losgröße 1:</strong> 1 bis 500 Bauteile in seriennahen Toleranzen und geprüfter Qualität ohne millionenschwere Tooling-Kosten.</span>
+              </div>
+            </div>
+          </div>
+          <div class="visual-column">
+            <div class="image-frame glow-gold">
+              <img src="./sonderbau__01_cnc_biegebacken_fertigung_frontgrill.jpeg" alt="Massive CNC-Formwerkzeuge und Biegebacken für Sonderbauten">
+              <span class="frame-tag gold">CNC-FORM- & BIEGEWERKZEUGE · SONDERBAU FRONTGRILL</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SLIDE 3: Die Kern-USP · Die Streckziehpresse (Fokus Außenhaut) -->
+      <section class="slide" data-slide="3" data-title="Streckziehpresse" data-duration="15">
+        <div class="slide-content content-split-visual">
+          <div class="text-column">
+            <div class="section-tag">DAS ALLEINSTELLUNGSMERKMAL · FOKUS AUSSENHAUT</div>
+            <h2 class="slide-title">Fokus Außenhaut: Großbauteile im Streckzug.<br><em>Die Königsklasse: Dach, Haube, Seitenwand, Klappen.</em></h2>
+            <p class="slide-text">
+              Während Halter, Konsolen und Strukturteile flexibel über CNC-Formwerkzeuge und handgeführte Vorrichtungen entstehen, ist die Außenhaut das zentrale Nadelöhr im Prototypenbau: Große, doppelt gekrümmte Sichtflächen erfordern perfekte Reflexionslinien ohne Beulen. Konventionelle Tiefziehwerkzeuge sind bei 1 bis 500 Stück unbezahlbar. Unsere hydraulische Streckziehpresse löst dieses Dilemma mit einem einzigen Positivwerkzeug.
+            </p>
+            <div class="meta-bullets">
+              <div class="bullet-item">
+                <span class="bullet-num">01</span>
+                <span><strong>Fokus Großflächen-Außenhaut:</strong> Ausgelegt für vollständige Fahrzeugdächer, Fronthauben, Heckklappen, Türen und Kotflügel in serienidentischer Optik.</span>
+              </div>
+              <div class="bullet-item">
+                <span class="bullet-num">02</span>
+                <span><strong>Nur ein Positivwerkzeug:</strong> Großflächige Außenhautteile ohne teures Ober-/Untergesenk – unübertroffene Wirtschaftlichkeit ab Stückzahl 1 bis 500.</span>
+              </div>
+              <div class="bullet-item">
+                <span class="bullet-num">03</span>
+                <span><strong>Biaxiale Zugspannung:</strong> Gleichmäßige Reckung des Blechgefüges für homogene Formtreue und makellose Sichtflächen ohne Einfallstellen.</span>
+              </div>
+            </div>
+          </div>
+          <div class="visual-column">
+            <div class="image-frame glow-gold">
+              <img src="./streckziehen__04_grossbauteil_dachhaut_streckziehpresse.jpeg" alt="Großbauteil Dachhaut auf Streckziehpresse im Ziehprozess">
+              <div class="frame-tag gold">GROSSBAUTEIL · DACHHAUT AUF STRECKZIEHPRESSE</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SLIDE 4: Physik der Perfektion · Gezielt verfestigt & Werkstoffkompetenz -->
+      <section class="slide" data-slide="4" data-title="Kaltverfestigung & Werkstoffe" data-duration="16">
+        <div class="slide-content content-split-visual">
+          <div class="text-column">
+            <div class="section-tag">DIE PHYSIK DER PERFEKTION · WERKSTOFFKOMPETENZ</div>
+            <h2 class="slide-title">Beulsteif. Formstabil.<br><em>Gezielt verfestigt & OEM-Materialkompetenz.</em></h2>
+            <p class="slide-text">
+              Beim konventionellen Tiefziehen verfestigt sich das Blech fast nur an stark umgeformten Radien – große Freiformflächen bleiben weich und neigen zum gefürchteten "Ploppen" oder zu Dellen bei Montage und Belastung. Durch das Streckziehen erfährt das gesamte Blechgefüge eine homogene, gezielte Kaltverfestigung über die volle Fläche.
+            </p>
+            <div class="benefit-box">
+              <div class="benefit-title">Der Qualitätsvorteil für Prototypen, Showcars & Kleinserien</div>
+              <p>Überragende Beulsicherheit gegen Dellen und Verzug bei Montage, Erprobung oder Transport. Thermisches Ploppen bei Sonneneinstrahlung wird eliminiert – für makellose, spiegelnde Reflexionslinien ohne Spachtelbedarf.</p>
+            </div>
+            <div class="kpi-row">
+              <div class="kpi-item">
+                <span class="kpi-number">100 %</span>
+                <span class="kpi-label">Fläche verfestigt</span>
+              </div>
+              <div class="kpi-item">
+                <span class="kpi-number">+ 35 %</span>
+                <span class="kpi-label">Höhere Beulsteifigkeit</span>
+              </div>
+              <div class="kpi-item">
+                <span class="kpi-number">1–500 St.</span>
+                <span class="kpi-label">Wirtschaftsoptimum</span>
+              </div>
+            </div>
+            <div class="meta-bullets" style="margin-top: 14px;">
+              <div class="bullet-item">
+                <span class="bullet-num">01</span>
+                <span><strong>Aluminium-Außenhaut:</strong> EN AW-5xxx & 6xxx inkl. Wärmebehandlung / Warmauslagerung für definierte Festigkeit und KTL-Beschichtungsfähigkeit.</span>
+              </div>
+              <div class="bullet-item">
+                <span class="bullet-num">02</span>
+                <span><strong>Stahl & Edelstahl:</strong> Sichere Umformung anspruchsvoller Tiefziehgüten sowie Edelstahlbleche für höchste Struktur- und Designanforderungen.</span>
+              </div>
+            </div>
+          </div>
+          <div class="visual-column">
+            <div class="trio-visual-stack">
+              <div class="trio-top-row">
+                <div class="image-frame-stacked glow-border">
+                  <img src="./streckziehen__01_tuerhaut_auf_streckziehpresse.jpeg" alt="Türhaut auf Streckziehpresse unter Zugspannung">
+                  <span class="frame-tag">BIAXIALER STRECKZUG</span>
+                </div>
+                <div class="image-frame-stacked glow-border">
+                  <img src="./streckziehen__02_streckziehpresse_spannbacken_tuerhaut.jpeg" alt="Hydraulische Spannbacken an der Türhaut">
+                  <span class="frame-tag">HYDRAULISCHE SPANNBACKEN</span>
+                </div>
+              </div>
+              <div class="trio-bottom-row">
+                <img src="./streckziehen__03_tuerhaut_finish_class_a_flaeche.jpeg" alt="Türhaut Finish Class A Fläche makellos">
+                <span class="frame-tag gold">MAKELLOSES CLASS-A FLÄCHENFINISH</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SLIDE 5: Case Study · G-Klasse Gegenläufige Türen (Blechteile-Kleinserie) -->
+      <section class="slide" data-slide="5" data-title="Case Study G-Klasse Türen" data-duration="16">
+        <div class="slide-content content-split-visual">
+          <div class="text-column">
+            <div class="section-tag">REFERENZPROJEKT · BLECHTEILE-KLEINSTSERIE</div>
+            <h2 class="slide-title">Gegenläufige Türen in Kleinstserie.<br><em>Umgebauter Türeinstieg & Fondtüren für Premiumkunden.</em></h2>
+            <p class="slide-text">
+              Als anspruchsvolle Referenz für die Fertigung komplexer Karosserie-Baugruppen fertigten wir für einen exklusiven Premiumkunden den vollständigen umgebauten Türeinstieg sowie die hinteren Fondtüren als einbaufertige Blechteile. Hier greift die gesamte Prozesskette ineinander: Von der streckgezogenen Außenhaut bis zu den maßhaltig gefügten Strukturblechen.
+            </p>
+            <div class="meta-bullets">
+              <div class="bullet-item">
+                <span class="bullet-num">01</span>
+                <span><strong>Umgebauter Türeinstieg:</strong> Maßhaltig gefertigte Einstiegs- und Säulenstrukturbleche zur spielfreien Aufnahme der gegenläufigen Scharnierkinematik.</span>
+              </div>
+              <div class="bullet-item">
+                <span class="bullet-num">02</span>
+                <span><strong>Hintere Fondtüren (Blechteile):</strong> Streckgezogene Außenhaut mit homogener Kaltverfestigung, exakt gefügt mit dem modifizierten Innenrohbau.</span>
+              </div>
+              <div class="bullet-item">
+                <span class="bullet-num">03</span>
+                <span><strong>Kleinstserie in Perfektion:</strong> Wiederholgenaue Passform, saugende Spaltmaße und verzugsfreie Flächenmontage ab Losgröße 1.</span>
+              </div>
+            </div>
+            <div class="live-doors-callout" style="margin-top: 16px;">
+              <p><strong>In unserer Manufaktur zu besichtigen:</strong> Die Werkzeugformen für die Türen und der passende Einstiegs-Säulenumbau stehen direkt vor Ort in Bretzfeld zur Begutachtung bereit.</p>
+            </div>
+          </div>
+          <div class="visual-column">
+            <div class="video-container glow-gold video-click-to-play" id="slideCoachDoorsWrap" title="Klicken, um das Einsatzvideo abzuspielen">
+              <div class="video-poster">
+                <img src="./g_klasse_hofele_suicide_doors.png" alt="G-Klasse mit gegenläufigen Türen (Coach Doors) - Detailansicht">
+                <div class="poster-play-overlay">
+                  <div class="pulse-play-btn">
+                    <span class="triangle-play">▶</span>
+                  </div>
+                  <span class="poster-callout-text">Klicken zum Abspielen des Einsatzvideos</span>
+                </div>
+                <span class="frame-tag gold">KLEINSERIE · REVERSE COACH DOORS</span>
+              </div>
+              <div class="video-embed-holder">
+                <iframe data-src="https://www.youtube.com/embed/y4Fs3-2sPgw?autoplay=1&rel=0&enablejsapi=1" src="" title="G-Klasse Türen Fertigung und Einsatz" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width: 100%; height: 100%; border-radius: 8px;"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SLIDE 6: Schritt 2 · Formenbau & 5-Achs-CNC-Werkzeuge -->
+      <section class="slide" data-slide="6" data-title="CNC-Werkzeugbau" data-duration="15">
+        <div class="slide-content content-split-visual">
+          <div class="text-column">
+            <div class="section-tag">AGILER WERKZEUGBAU (1 BIS 500 STÜCK)</div>
+            <h2 class="slide-title">Werkzeugbereitstellung<br><em>in Tagen oder Wochen statt Monaten.</em></h2>
+            <p class="slide-text">
+              Keine monatelangen Wartezeiten auf schwere Guss- oder Stahlformen: Direkt aus den OEM-CAD-Flächen konstruieren und fräsen wir formstabile Ureol- und Verbundwerkzeugsätze auf modernen 5-Achs-Simultanfräszentren.
+            </p>
+            <div class="feature-pills">
+              <span class="pill">5-Achs-Simultanfräsen</span>
+              <span class="pill">Formstabile Ureol-Werkzeuge</span>
+              <span class="pill">Schnelle Design-Iterationen</span>
+            </div>
+            <div class="mini-gallery-row">
+              <div class="mini-thumb">
+                <img src="./prozesskette__02_cnc_fraesen_ureol_klopfklotz_fertig.jpeg" alt="CNC gefrästes Ureol-Ziehwerkzeug">
+                <span>Ureol-Ziehwerkzeug Innenkontur</span>
+              </div>
+              <div class="mini-thumb">
+                <img src="./prozesskette__03_ureol_formwerkzeug_heck_radlauf.jpeg" alt="Ureol Formwerkzeug Heck Radlauf">
+                <span>Formwerkzeug Radlauf</span>
+              </div>
+            </div>
+            <div class="meta-bullets" style="margin-top: 18px;">
+              <div class="bullet-item">
+                <span class="bullet-num">01</span>
+                <span><strong>Maximale Agilität:</strong> Geometrieänderungen während der Prototypenphase fließen auf kurzem Dienstweg direkt und flexibel in die Werkzeuganpassung ein.</span>
+              </div>
+            </div>
+          </div>
+          <div class="visual-column">
+            <div class="video-container glow-border">
+              <video id="cncVideo" loop muted playsinline preload="auto">
+                <source src="./prozesskette__02_cnc_fraesen_ureol_werkzeug_video.mp4" type="video/mp4">
+                Ihr Browser unterstützt kein HTML5-Video.
+              </video>
+              <div class="video-overlay-ctrl">
+                <button class="btn-video-toggle" id="btnCncVideo">▶ Video abspielen</button>
+                <span class="video-badge">LIVE-CLIP · 5-ACHS WERKZEUGFRÄSEN</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SLIDE 7: Digitaler OEM-Workflow & Industrielle 3D-Messtechnik -->
+      <section class="slide" data-slide="7" data-title="OEM-Workflow & Messtechnik" data-duration="14">
+        <div class="slide-content content-split-visual">
+          <div class="text-column">
+            <div class="section-tag">DIGITALE PROZESSKETTE & QUALITÄTSSICHERUNG</div>
+            <h2 class="slide-title">Vom OEM-CAD zum geprüften Bauteil.<br><em>Nahtloser Workflow nach Industriestandards.</em></h2>
+            <p class="slide-text">
+              Konstruiert, simuliert und ausgelegt wird unmittelbar nach Ihren OEM-Datensätzen (Catia, Siemens NX, STEP). Im klimatisierten Messlabor verifizieren wir jedes Bauteil mit optischer 3D-Blaulicht-Messtechnik (GOM ATOS Triple Scan) präzise gegen den aktuellen CAD-Datenstand – inklusive normgerechtem VDA-Prüfbericht.
+            </p>
+            <div class="specs-grid">
+              <div class="spec-box">
+                <span class="spec-val">&lt; 0.02 mm</span>
+                <span class="spec-lbl">Messgenauigkeit (VDI/VDE)</span>
+              </div>
+              <div class="spec-box">
+                <span class="spec-val">Catia / NX</span>
+                <span class="spec-lbl">Native CAD-Basis</span>
+              </div>
+              <div class="spec-box">
+                <span class="spec-val">VDA / OEM</span>
+                <span class="spec-lbl">Prüfbericht & Falschfarben</span>
+              </div>
+            </div>
+            <div class="meta-bullets">
+              <div class="bullet-item">
+                <span class="bullet-num">01</span>
+                <span><strong>Prozessauslegung & Simulation:</strong> Direkte Ableitung der Werkzeug-Wirkflächen und Umformfolgen aus Ihren freigegebenen OEM-CAD-Modellen.</span>
+              </div>
+              <div class="bullet-item">
+                <span class="bullet-num">02</span>
+                <span><strong>Optischer 3D-Soll/Ist-Vergleich:</strong> Stationäre Messung im Labor oder mobile Erfassung am Prototypenfahrzeug zur schnellen Serienfreigabe.</span>
+              </div>
+            </div>
+            <p class="slide-footnote">Im Bild oben: GOM ATOS Triple Scan Sensor im Messlabor. Unten: Mobile Fotogrammetrie am Gesamtfahrzeug.</p>
+          </div>
+          <div class="visual-column stacked-visuals">
+            <div class="image-frame-stacked glow-gold">
+              <img src="./messtechnik__01_gom_atos_optischer_3d_scanner_messlabor.jpeg" alt="GOM ATOS Triple Scan 3D-Scanner im Messlabor">
+              <div class="frame-tag gold">MESSLABOR · GOM ATOS TRIPLE SCAN SENSOR</div>
+            </div>
+            <div class="image-frame-stacked glow-border">
+              <img src="./prozesskette__01_3d_scan_g_klasse_tuer_fotogrammetrie.jpeg" alt="Optischer 3D-Scan Karosseriestruktur">
+              <div class="frame-tag">MOBILE FOTOGRAMMETRIE · STRUKTURERFASSUNG</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SLIDE 8: Feasibility & Geometrie-Digitalisierung (Design & Modellbau) -->
+      <section class="slide" data-slide="8" data-title="Design & Reverse Engineering" data-duration="15">
+        <div class="slide-content content-full">
+          <div class="section-header-centered">
+            <div class="section-tag">FEASIBILITY & REVERSE ENGINEERING · WENN KEINE CAD-DATEN VORLIEGEN</div>
+            <h2 class="slide-title">Vom Clay-Designmodell oder Muster<br><em>zum Digitalen Zwilling und zum neuen Teil.</em></h2>
+            <p class="slide-lead">Falls im frühen Konzeptstadium noch keine vollständigen CAD-Flächen vorliegen: Lückenlose Rekonstruktion geometrischer Datensätze direkt von 1:1 Clay-Modellen, Bauraummustern oder Erprobungsteilen.</p>
+          </div>
+          <div class="grid-3-cards">
+            <div class="craft-card">
+              <div class="craft-img">
+                <span class="craft-badge">STUFE 01 · ERFASSUNG</span>
+                <img src="./engineering__01_schadteil_messmarken_referenzpunkte.jpeg" alt="Modell mit optischen Messmarken und Referenzpunkten">
+              </div>
+              <div class="craft-body">
+                <h3>Referenzpunktierung</h3>
+                <p>Optische Marken auf Design-, Clay- oder Erprobungsmodellen sichern die hochgenaue 360°-Geometrieerfassung selbst an komplexen Kanten.</p>
+              </div>
+            </div>
+            <div class="craft-card">
+              <div class="craft-img">
+                <span class="craft-badge">STUFE 02 · JUSTAGE</span>
+                <img src="./engineering__02_musterbauteil_gefuegt_fuer_scan.jpeg" alt="Gefügtes Musterbauteil für optische Vermessung">
+              </div>
+              <div class="craft-body">
+                <h3>Spielfreie Ausrichtung</h3>
+                <p>Präzises Ausrichten und Fixieren des modellierten Teils oder Musters zur maßhaltigen Erfassung aller Schnittstellen und Bemaßungen.</p>
+              </div>
+            </div>
+            <div class="craft-card">
+              <div class="craft-img">
+                <span class="craft-badge">STUFE 03 · DIGITALER ZWILLING</span>
+                <img src="./engineering__03_cad_rekonstruktion_zeiss_gom_software.jpeg" alt="Flächenrückführung in ZEISS GOM Software">
+              </div>
+              <div class="craft-body">
+                <h3>ZEISS GOM Digitaler Zwilling</h3>
+                <p>Rückführung der Punktwolke in einen sauberen digitalen Zwilling (CAD-Datensatz) – die direkte Basis für Werkzeugbau und das neue Bauteil.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SLIDE 9: Strukturteil-Prozesskette (Vom CNC-Ziehwerkzeug zum Fertigteil) -->
+      <section class="slide" data-slide="9" data-title="Prozesskette Strukturteil" data-duration="16">
+        <div class="slide-content content-full">
+          <div class="section-header-centered">
+            <div class="section-tag">PROTOTYPEN- & STRUKTURTEIL-FERTIGUNG</div>
+            <h2 class="slide-title">Vom CNC-Ziehwerkzeug<br><em>zum maßhaltigen Strukturbauteil.</em></h2>
+            <p class="slide-lead">Lückenlose Entstehung anspruchsvoller Schweller- und Struktursegmente: Ureol-Ziehwerkzeug, Einformen und finale Kontur.</p>
+          </div>
+          <div class="grid-3-cards">
+            <div class="craft-card">
+              <div class="craft-img">
+                <span class="craft-badge">STUFE 01 · WERKZEUG</span>
+                <img src="./prozesskette__02_cnc_fraesen_ureol_klopfklotz_fertig.jpeg" alt="5-Achs CNC-gefrästes Ureol Ziehwerkzeug für Schwellerträger">
+              </div>
+              <div class="craft-body">
+                <h3>5-Achs CNC-Ziehwerkzeug</h3>
+                <p>Präzisionsgefräster Ureol-Formklotz mit 100% CAD-Flächentreue sowie gefrästen Sicken- und Referenzbohrungen.</p>
+              </div>
+            </div>
+            <div class="craft-card">
+              <div class="craft-img">
+                <span class="craft-badge">STUFE 02 · ANPASSEN & UMFORMEN</span>
+                <img src="./handformung__05_schwellertraeger_anpassen_schraubzwingen.jpeg" alt="Schwellerträger anpassen mit Schraubzwingen und Formhämmern">
+              </div>
+              <div class="craft-body">
+                <h3>Handgeführtes Umformen</h3>
+                <p>Gezieltes Einformen, Abkanten und Anpassen der Kantenradien unter präziser Schraubzwingen-Fixierung auf dem Ziehwerkzeug.</p>
+              </div>
+            </div>
+            <div class="craft-card">
+              <div class="craft-img">
+                <span class="craft-badge">STUFE 03 · FERTIGTEIL</span>
+                <img src="./handformung__06_schwellertraeger_blechteil_konturiert_fertig.jpeg" alt="Fertig konturiertes Schwellerträger Blechteil saugend auf Werkzeug">
+              </div>
+              <div class="craft-body">
+                <h3>Konturiertes Strukturteil</h3>
+                <p>Laserbeschnittenes, maßhaltiges Strukturbauteil mit saugender Passung auf dem Prüf- und Ziehwerkzeug.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SLIDE 10: Komplexe Karosserieteile in Kleinserie -->
+      <section class="slide" data-slide="10" data-title="Karosserieteile Kleinserie" data-duration="15">
+        <div class="slide-content content-full">
+          <div class="section-header-centered">
+            <div class="section-tag">AUSSENHAUT- & SEGMENTFERTIGUNG</div>
+            <h2 class="slide-title">Komplexe Karosserieteile<br><em>in Kleinserie.</em></h2>
+            <p class="slide-lead">Formwerkzeuge, Bördelkanten und millimetergenaue Prüfung auf Einbauvorrichtungen.</p>
+          </div>
+          <div class="grid-3-cards">
+            <div class="craft-card">
+              <div class="craft-img">
+                <span class="craft-badge">SPANNTISCH-WERKZEUG</span>
+                <img src="./prototypenbau__01_werkzeug_handformung_radlauf_aufspanntisch.jpeg" alt="Ureol-Formwerkzeug Radlauf mit Handformwerkzeugen auf Schweißtisch">
+              </div>
+              <div class="craft-body">
+                <h3>Ureol-Formwerkzeug Radlauf</h3>
+                <p>Aufgespannt auf dem Präzisions-Lochtisch, umgeben von maßgefertigten Treibhämmern, Formhölzern und Spannstempeln zur Einarbeitung exakter Bördelkanten.</p>
+              </div>
+            </div>
+            <div class="craft-card">
+              <div class="craft-img">
+                <span class="craft-badge">FORM- & FIXIERVORRICHTUNG</span>
+                <img src="./prototypenbau__02_ureol_spannwerkzeug_blechformung_totale.jpeg" alt="Formwerkzeuge fixieren das Blechteil aus der Ziehstufe">
+              </div>
+              <div class="craft-body">
+                <h3>Fixierung Folgeoperationen</h3>
+                <p>Formwerkzeuge fixieren das Blechteil aus der Ziehstufe für die präzise manuelle Bearbeitung der Folgeoperationen.</p>
+              </div>
+            </div>
+            <div class="craft-card">
+              <div class="craft-img">
+                <span class="craft-badge">FINISHVORRICHTUNG</span>
+                <img src="./prototypenbau__03_seitenwand_kleinserie_pruefvorrichtung.jpeg" alt="Vollständig ausgeformter Kotflügel auf Finishvorrichtung">
+              </div>
+              <div class="craft-body">
+                <h3>Ausgeformter Kotflügel</h3>
+                <p>Vollständig ausgeformter Kotflügel auf der Finishvorrichtung – einbaufertig für den direkten Rohbau-Einsatz.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SLIDE 11: Kontakt & Manufaktur-Dialog -->
+      <section class="slide" data-slide="11" data-title="Kontakt & Manufaktur" data-duration="15">
+        <div class="slide-content content-split-visual">
+          <div class="text-column">
+            <div class="section-tag">PERSÖNLICHER DIALOG & ANSPRECHPARTNER</div>
+            <h2 class="slide-title">Ihr Partner für Prototypen<br><em>und Sonderbauten.</em></h2>
+            <p class="slide-text">
+              Lassen Sie uns gemeinsam über Machbarkeiten, Bauraumkonzepte und Kleinserien-Realisierungen sprechen. Wir beraten Sie von Ingenieur zu Karosseriebaumeister – direkt bei uns vor Ort oder im digitalen Austausch.
+            </p>
+            <div class="contact-info-list">
+              <div class="contact-info-item">
+                <span class="contact-icon">📍</span>
+                <div>
+                  <div class="contact-detail-title">Adresse</div>
+                  <div class="contact-detail-val">Mainhardter Str. 39, 74626 Bretzfeld, Deutschland</div>
+                </div>
+              </div>
+              <div class="contact-info-item">
+                <span class="contact-icon">✉️</span>
+                <div>
+                  <div class="contact-detail-title">E-Mail-Adresse</div>
+                  <div class="contact-detail-val">
+                    <a href="mailto:kontakt@skarosserie.de">kontakt@skarosserie.de</a> · 
+                    <a href="mailto:schaeferkarosserie@gmail.com">schaeferkarosserie@gmail.com</a>
+                  </div>
+                </div>
+              </div>
+              <div class="contact-info-item">
+                <span class="contact-icon">📞</span>
+                <div>
+                  <div class="contact-detail-title">Telefon / Mobil</div>
+                  <div class="contact-detail-val">
+                    <a href="tel:+491728807046">+49 172 8807046</a>
+                  </div>
+                </div>
+              </div>
+              <div class="contact-info-item">
+                <span class="contact-icon">🌐</span>
+                <div>
+                  <div class="contact-detail-title">Web & Showroom</div>
+                  <div class="contact-detail-val">
+                    <a href="https://www.skarosserie.de" target="_blank" rel="noopener">www.skarosserie.de</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="live-doors-callout">
+              <p><strong>Besuchen Sie unsere Manufaktur:</strong> Begutachten Sie unsere Streckziehpresse, Ureol-Werkzeuge und realen Fertigungsbeispiele direkt vor Ort in Bretzfeld.</p>
+            </div>
+          </div>
+          <div class="visual-column">
+            <div class="image-frame glow-gold">
+              <img src="./kontakt__01_marco_schaefer_manufaktur_dialog.jpeg" alt="Marco Schäfer im Fachgespräch an der Blechteile-Vorrichtung">
+              <span class="frame-tag gold">MARCO SCHÄFER · INHABER & KAROSSERIEBAUMEISTER</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- FOOTER CONTROLS -->
+    <footer class="deck-controls">
+      <div class="controls-left">
+        <button id="btnPrev" class="ctrl-btn" title="Vorherige Folie (Pfeil links)">‹ Zurück</button>
+        <button id="btnNext" class="ctrl-btn" title="Nächste Folie (Pfeil rechts / Space)">Weiter ›</button>
+        <button id="btnLoopToggle" class="ctrl-btn loop-toggle" title="Auto-Loop umschalten (Taste A)">
+          <span class="loop-icon">↻</span> Auto-Loop: <strong id="loopStatusText">AUS</strong>
+        </button>
+      </div>
+      <div class="controls-center">
+        <span class="quick-nav-label">Station:</span>
+        <div class="dots-nav" id="dotsNav"></div>
+      </div>
+      <div class="controls-right">
+        <button id="btnFullscreen" class="ctrl-btn" title="Vollbild (Taste F / F11)">⛶ Vollbild</button>
+      </div>
+    </footer>
+
+    <!-- VIDEO MODAL (YOUTUBE / EXTERNAL) -->
+    <div id="videoModal" class="video-modal">
+      <div class="video-modal-backdrop" id="btnBackdropClose"></div>
+      <div class="video-modal-dialog">
+        <div class="video-modal-header">
+          <span class="modal-title">FERTIGUNGS-DOKUMENTATION · G-KLASSE TÜREN</span>
+          <button id="btnCloseModal" class="modal-close-btn">&times; Schließen (ESC)</button>
+        </div>
+        <div class="video-modal-body">
+          <div class="iframe-responsive-wrap">
+            <iframe id="ytIframe" src="" title="G-Klasse Türen Fertigung" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
